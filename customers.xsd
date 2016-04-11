@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:include schemalocation="../schemas/customer.xsd"/>
-
-	<xs:import schemalocation="../schemas/customer.xsd"/>
-
-
+	<xs:include schemaLocation="https://raw.githubusercontent.com/dirosden/schemas/master/customer.xsd"/>
 	<xs:element name="customers" type="customers"/>
 
 	<xs:element name="link" type="link"/>
